@@ -1,9 +1,9 @@
 import React from 'react'
-import {HiArrowNarrowRight} from 'react-icons /fa'
+import {HiArrowNarrowRight} from 'react-icons/fa'
 
 function Home() {
   return (
-    <div>Home</div>
+    <div className='w-full h-screen bg-[#0a192f]'>Home</div>
   )
 }
 
