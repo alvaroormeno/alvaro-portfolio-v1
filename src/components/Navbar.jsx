@@ -1,7 +1,14 @@
-import React from 'react'
+import React, {useState} from 'react'
 import {FaBars, FaTimes} from 'react-icons/fa'
 
 const Navbar = () => {
+    const [nav, setNav] = useState(false)
+    const handleClick = function() {
+        setNav(!nav)
+    }
+
+
+
   return (
     <div className='fixed w-full h-[80px] flex justify-between px-4 items-center bg-[#0a192f] text-gray-300'>
         <div>
@@ -21,16 +28,17 @@ const Navbar = () => {
             </ul>
         </div>
 
-        {/* HAMBURGER ICON */}
+        {/* HAMBURGER ICON */} 
         {/* Note 2 */}
-        <div className='md:hidden z-10'>
-            <FaBars></FaBars>
+        <div onClick={handleClick} className='md:hidden z-10'>
+            {/* This is a Ternary Operator = condition ? expression if true : expression if false */}
+            {!nav ? <FaBars /> : <FaTimes />}
         </div>
 
         {/* MOBILE MENU */}
         {/* Note 3 */}
         
-        <div className=' absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'>
+        <div className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'}>
             <ul >
             <li className='py-6 text-4xl'>Home</li>
             <li className='py-6 text-4xl'>About</li>
