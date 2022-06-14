@@ -18,6 +18,7 @@ function Home() {
                 attitude and welcoming new challenges. 
             </p>
             <div>
+                {/* NOTE 1 */}
                 <button className='group text-white border-2 px-6 py-3 flex items-center hover:bg-pink-600 hover:border-pink-600'>
                     View Work
                     <span className='group-hover:rotate-90 duration-300'>
@@ -33,3 +34,9 @@ function Home() {
 }
 
 export default Home
+
+// 1 - This button when hover over it turns pink and the arrow (icon) rotates 90 degrees so it points down.
+//  In tailwind for it to rotate down when hovering you must group the main element which in this case is
+//  the button element. This is why it has "group" in the className and also the <span> that contains the
+//  icon also has group... this works by letting it know that the whole button element and span element are a
+//  group so anywhere in the group that you hover over, the rotation is activated.
