@@ -4,6 +4,7 @@ import {HiOutlineMail} from 'react-icons/hi'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
 
 import {Link} from 'react-scroll'
+import resume from '../assets/2022aozcv.pdf';
 
 const Navbar = () => {
     const [nav, setNav] = useState(false)
@@ -49,6 +50,9 @@ const Navbar = () => {
                         Contact
                     </Link>
                 </li>
+                <li >
+                <a className="nav-link change" rel="noreferrer" href={resume} target="_blank" rel="noreferrer noopener">Resume</a>
+                </li>
             </ul>
         </div>
 
@@ -61,10 +65,10 @@ const Navbar = () => {
 
         {/* MOBILE MENU */}
         {/* Note 3 */}
-        
         <div className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'}>
             <ul >
             <li className='py-6 text-4xl'>
+                {/* NOTE 4 */}
                 <Link onClick={handleClick} to="home" smooth={true}  duration={500}>
                     Home
                 </Link>
@@ -89,6 +93,7 @@ const Navbar = () => {
                     Contact
                 </Link>
             </li>
+            
         </ul> 
         </div>
         
@@ -100,28 +105,28 @@ const Navbar = () => {
             <ul>
                 <li className='  w-[160px] h-[60px] flex justify-between items-center bg-[#76C893] ml-[-100px] hover:ml-[-10px] duration-300'>
                     <a className='flex justify-between items-center w-full text-gray-500'
-                    href="">
+                    href="http://linkedin.com/in/alvaroormeno" target="_blank">
                         Linkedin <FaLinkedin size={30}/>
                     </a>
                 </li>
 
                 <li className=' w-[160px] h-[60px] flex justify-between items-center bg-[#34A0A4] ml-[-100px] hover:ml-[-10px] duration-300'>
                     <a className='flex justify-between items-center w-full text-gray-400'
-                    href="">
+                    href="https://github.com/alvaroormeno" target="_blank">
                         Github <FaGithub size={30}/>
                     </a>
                 </li>
 
                 <li className=' w-[160px] h-[60px] flex justify-between items-center bg-[#1A759F] ml-[-100px] hover:ml-[-10px] duration-300'>
                     <a className='flex justify-between items-center w-full text-gray-300'
-                    href="">
+                    href="mailto:alvaro@ormeno.org" target="_blank">
                         Mail <HiOutlineMail size={30}/>
                     </a>
                 </li>
 
                 <li className=' w-[160px] h-[60px] flex justify-between items-center bg-[#1E6091] ml-[-100px] hover:ml-[-10px] duration-300'>
                     <a className='flex justify-between items-center w-full text-gray-200'
-                    href="">
+                    href={resume} target="_blank">
                         Resume <BsFillPersonLinesFill size={30}/>
                     </a>
                 </li>
@@ -148,3 +153,7 @@ export default Navbar
 // width to be full and the heigh to be 100 view port height (Viewport is the visible are on a window screen)
 // 'flex flex-col justify-center items-center' states for element to be flexed then into a column, to center them in y axis
 // and then to center them in x axis
+
+// 4 - On React Smooth Scroll <Link> we added onClick={handleClick} for it to change again the state so when
+// when the link is clicked it changes the state of showing or not showing the mobile menu. Since the Mobile Menu
+// is already showing, onClick={handleClick} changes the state and closes/hides it again.
