@@ -51,7 +51,7 @@ const Navbar = () => {
                     </Link>
                 </li>
                 <li >
-                <a className="nav-link change" rel="noreferrer" href={resume} target="_blank" rel="noreferrer noopener">Resume</a>
+                <a className="nav-link change" rel="noreferrer" href={resume} target="_blank">Resume</a>
                 </li>
             </ul>
         </div>
