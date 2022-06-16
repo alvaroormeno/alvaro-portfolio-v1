@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/photo-port/static/css/main.55d125e6.css",
+    "main.js": "/photo-port/static/js/main.f65e80ce.js",
+    "static/media/2022aozcv.pdf": "/photo-port/static/media/2022aozcv.ec63a9ec2bef30c161b9.pdf",
+    "static/media/consciousshopper.jpg": "/photo-port/static/media/consciousshopper.4b461bd2d59a103fee9c.jpg",
+    "static/media/flightfortonight.jpg": "/photo-port/static/media/flightfortonight.e611558a3d477c5c0f47.jpg",
+    "static/media/react.png": "/photo-port/static/media/react.0cf951a69d8e58f83f9d.png",
+    "static/media/node.png": "/photo-port/static/media/node.952a9ea986dcfa5229ad.png",
+    "static/media/github.png": "/photo-port/static/media/github.3b9e32903aa89111875d.png",
+    "static/media/html.png": "/photo-port/static/media/html.2ba4fabc69a89a8f71e6.png",
+    "static/media/css.png": "/photo-port/static/media/css.69a82c2d9e45c933a9cb.png",
+    "static/media/javascript.png": "/photo-port/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
+    "index.html": "/photo-port/index.html",
+    "main.55d125e6.css.map": "/photo-port/static/css/main.55d125e6.css.map",
+    "main.f65e80ce.js.map": "/photo-port/static/js/main.f65e80ce.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.55d125e6.css",
+    "static/js/main.f65e80ce.js"
+  ]
+}
