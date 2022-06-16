@@ -126,7 +126,7 @@ const Navbar = () => {
 
                 <li className=' w-[160px] h-[60px] flex justify-between items-center bg-[#1E6091] ml-[-100px] hover:ml-[-10px] duration-300'>
                     <a className='flex justify-between items-center w-full text-gray-200'
-                    href={resume} target="_blank">
+                    href="{resume}" target="_blank">
                         Resume <BsFillPersonLinesFill size={30}/>
                     </a>
                 </li>
