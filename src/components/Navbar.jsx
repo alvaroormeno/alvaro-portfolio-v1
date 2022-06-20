@@ -21,8 +21,7 @@ const Navbar = () => {
         </div>
 
         {/* REGULAR MENU */}
-        
-            {/* Note 1 */}
+        {/* Note 1 */}
         <div className=''>
             <ul className='hidden md:flex'>
                 <li >
@@ -92,6 +91,9 @@ const Navbar = () => {
                 <Link onClick={handleClick} to="contact" smooth={true}  duration={500}>
                     Contact
                 </Link>
+            </li>
+            <li className='py-6 text-4xl'>
+                <a href={resume} target="_blank">Resume</a>
             </li>
             
         </ul> 
