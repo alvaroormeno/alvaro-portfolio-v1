@@ -27,7 +27,7 @@ const About = () => {
                     <p>
                         Please take a look around.
                     </p>
-                    <div className='mt-3  flex justify-end'>
+                    <div className='mt-3  flex sm:justify-end justify-center'>
                        <img className='max-w-[300px]' src={meImg} alt="" /> 
                     </div>
                 </div>
