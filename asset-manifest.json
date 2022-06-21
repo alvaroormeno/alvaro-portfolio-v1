@@ -1,22 +1,24 @@
 {
   "files": {
-    "main.css": "/alvaro-portfolio-v1/static/css/main.55d125e6.css",
-    "main.js": "/alvaro-portfolio-v1/static/js/main.56f1fcd2.js",
-    "static/media/2022aozcv.pdf": "/alvaro-portfolio-v1/static/media/2022aozcv.ec63a9ec2bef30c161b9.pdf",
+    "main.css": "/alvaro-portfolio-v1/static/css/main.a3e2db60.css",
+    "main.js": "/alvaro-portfolio-v1/static/js/main.2d6c43ba.js",
+    "static/media/airbnblanding.png": "/alvaro-portfolio-v1/static/media/airbnblanding.6d928c51336e4fc0fda5.png",
+    "static/media/2022aozcv.pdf": "/alvaro-portfolio-v1/static/media/2022aozcv.1dd5ac525879579afa18.pdf",
     "static/media/consciousshopper.jpg": "/alvaro-portfolio-v1/static/media/consciousshopper.4b461bd2d59a103fee9c.jpg",
     "static/media/flightfortonight.jpg": "/alvaro-portfolio-v1/static/media/flightfortonight.e611558a3d477c5c0f47.jpg",
     "static/media/react.png": "/alvaro-portfolio-v1/static/media/react.0cf951a69d8e58f83f9d.png",
+    "static/media/alvaro22.jpeg": "/alvaro-portfolio-v1/static/media/alvaro22.2c6c9ab65d64ddd18104.jpeg",
     "static/media/node.png": "/alvaro-portfolio-v1/static/media/node.952a9ea986dcfa5229ad.png",
     "static/media/github.png": "/alvaro-portfolio-v1/static/media/github.3b9e32903aa89111875d.png",
     "static/media/html.png": "/alvaro-portfolio-v1/static/media/html.2ba4fabc69a89a8f71e6.png",
     "static/media/css.png": "/alvaro-portfolio-v1/static/media/css.69a82c2d9e45c933a9cb.png",
     "static/media/javascript.png": "/alvaro-portfolio-v1/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/alvaro-portfolio-v1/index.html",
-    "main.55d125e6.css.map": "/alvaro-portfolio-v1/static/css/main.55d125e6.css.map",
-    "main.56f1fcd2.js.map": "/alvaro-portfolio-v1/static/js/main.56f1fcd2.js.map"
+    "main.a3e2db60.css.map": "/alvaro-portfolio-v1/static/css/main.a3e2db60.css.map",
+    "main.2d6c43ba.js.map": "/alvaro-portfolio-v1/static/js/main.2d6c43ba.js.map"
   },
   "entrypoints": [
-    "static/css/main.55d125e6.css",
-    "static/js/main.56f1fcd2.js"
+    "static/css/main.a3e2db60.css",
+    "static/js/main.2d6c43ba.js"
   ]
 }
