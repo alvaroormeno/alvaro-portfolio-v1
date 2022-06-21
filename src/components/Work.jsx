@@ -2,6 +2,7 @@ import React from 'react'
 import Flight from '../assets/flightfortonight.jpg'
 import Shopper from '../assets/consciousshopper.jpg'
 import airbnb from '../assets/airbnblanding.png'
+import udemy from '../assets/udemy.png'
 
 const Work = () => {
   return (
@@ -100,6 +101,38 @@ const Work = () => {
                         </div>
                     </div>
                 </div>
+
+                {/* CARD 4 */}
+                <div style={{backgroundImage: `url(${udemy}`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                    
+                    {/* Hover Effect */}
+                    <div className='opacity-0 group-hover:opacity-100 max-w-[400px]'>
+                        <span className='text-2x1 font-bold text-white tracking-wider'>
+                            Udemy Clone Landing Page
+                        </span>
+                        <p>
+                            A responsive clone of Udemy main landing page. Uses JSON data file to populate information of courses.
+                        </p>
+                        <div className='pt-8 text-center'>
+                            <a href="https://alvaroormeno.github.io/udemy-clone-landing-page/" target="_blank">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                                    Live Demo
+                                </button>
+                            </a>
+                            <a href="https://github.com/alvaroormeno/udemy-clone-landing-page" target="_blank">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                                    Github Repo
+                                </button>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
             </div>
 
             
