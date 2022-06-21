@@ -104,7 +104,6 @@ const Work = () => {
 
             
         </div>
-
     </div>
   )
 }
