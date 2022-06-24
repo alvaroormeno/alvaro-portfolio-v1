@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/alvaro-portfolio-v1/static/css/main.550d787e.css",
-    "main.js": "/alvaro-portfolio-v1/static/js/main.af0f23d9.js",
+    "main.js": "/alvaro-portfolio-v1/static/js/main.74d57268.js",
     "static/media/airbnblanding.png": "/alvaro-portfolio-v1/static/media/airbnblanding.6d928c51336e4fc0fda5.png",
     "static/media/udemy.png": "/alvaro-portfolio-v1/static/media/udemy.8c92d64cc8c2203207a5.png",
+    "static/media/weatherapp.png": "/alvaro-portfolio-v1/static/media/weatherapp.84d41742cbaf41d0aa30.png",
     "static/media/2022aozcv.pdf": "/alvaro-portfolio-v1/static/media/2022aozcv.1dd5ac525879579afa18.pdf",
     "static/media/consciousshopper.jpg": "/alvaro-portfolio-v1/static/media/consciousshopper.4b461bd2d59a103fee9c.jpg",
     "static/media/flightfortonight.jpg": "/alvaro-portfolio-v1/static/media/flightfortonight.e611558a3d477c5c0f47.jpg",
@@ -16,10 +17,10 @@
     "static/media/javascript.png": "/alvaro-portfolio-v1/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/alvaro-portfolio-v1/index.html",
     "main.550d787e.css.map": "/alvaro-portfolio-v1/static/css/main.550d787e.css.map",
-    "main.af0f23d9.js.map": "/alvaro-portfolio-v1/static/js/main.af0f23d9.js.map"
+    "main.74d57268.js.map": "/alvaro-portfolio-v1/static/js/main.74d57268.js.map"
   },
   "entrypoints": [
     "static/css/main.550d787e.css",
-    "static/js/main.af0f23d9.js"
+    "static/js/main.74d57268.js"
   ]
 }
