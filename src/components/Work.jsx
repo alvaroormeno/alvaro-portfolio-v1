@@ -3,6 +3,7 @@ import Flight from '../assets/flightfortonight.jpg'
 import Shopper from '../assets/consciousshopper.jpg'
 import airbnb from '../assets/airbnblanding.png'
 import udemy from '../assets/udemy.png'
+import weatherapp from '../assets/weatherapp.png'
 
 const Work = () => {
   return (
@@ -120,6 +121,33 @@ const Work = () => {
                                 </button>
                             </a>
                             <a href="https://github.com/alvaroormeno/udemy-clone-landing-page" target="_blank">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                                    Github Repo
+                                </button>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+
+                {/* CARD 5 */}
+                <div style={{backgroundImage: `url(${weatherapp}`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                    
+                    {/* Hover Effect */}
+                    <div className='opacity-0 group-hover:opacity-100 max-w-[400px]'>
+                        <span className='text-2x1 font-bold text-white tracking-wider'>
+                            Responsive Weather APP
+                        </span>
+                        <p>
+                        A complete mobile responsive weather app that uses 2 different API calls to fetch different weather properties.
+                        </p>
+                        <div className='pt-8 text-center'>
+                            <a href="https://alvaroormeno.github.io/responsive-weather-app/" target="_blank">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                                    Live Demo
+                                </button>
+                            </a>
+                            <a href="https://github.com/alvaroormeno/responsive-weather-app" target="_blank">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                                     Github Repo
                                 </button>
