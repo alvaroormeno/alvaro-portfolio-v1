@@ -32,4 +32,5 @@ linkedin, github and email. Also allows user download my latest resume in PDF fo
 
 
 ## Screenshots
-![Screenshot 1](src/assets/screenshot-1.png)
+![Screenshot 1](src/assets/limanjarMain.png)
+![Screenshot 2](src/assets/limanjarShop.png)

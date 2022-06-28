@@ -157,6 +157,33 @@ const Work = () => {
                     </div>
                 </div>
 
+                {/* CARD 6 */}
+                <div style={{backgroundImage: `url(${weatherapp}`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                    
+                    {/* Hover Effect */}
+                    <div className='opacity-0 group-hover:opacity-100 max-w-[400px]'>
+                        <span className='text-2x1 font-bold text-white tracking-wider'>
+                            Limanjar Dulceria Website
+                        </span>
+                        <p>
+                        A mock website for Limanjar Dulceria, Online Bakery Shop
+                        </p>
+                        <div className='pt-8 text-center'>
+                            <a href="https://alvaroormeno.github.io/limanjar-web/" target="_blank">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                                    Live Demo
+                                </button>
+                            </a>
+                            <a href="https://github.com/alvaroormeno/limanjar-web" target="_blank">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                                    Github Repo
+                                </button>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+
 
 
 
