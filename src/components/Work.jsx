@@ -4,6 +4,7 @@ import Shopper from '../assets/consciousshopper.jpg'
 import airbnb from '../assets/airbnblanding.png'
 import udemy from '../assets/udemy.png'
 import weatherapp from '../assets/weatherapp.png'
+import limanjar from '../assets/limanjarMain.png'
 
 const Work = () => {
   return (
@@ -158,7 +159,7 @@ const Work = () => {
                 </div>
 
                 {/* CARD 6 */}
-                <div style={{backgroundImage: `url(${weatherapp}`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                <div style={{backgroundImage: `url(${limanjar}`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                     
                     {/* Hover Effect */}
                     <div className='opacity-0 group-hover:opacity-100 max-w-[400px]'>
