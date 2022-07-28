@@ -6,6 +6,7 @@ import udemy from '../assets/udemy.png'
 import weatherapp from '../assets/weatherapp.png'
 import limanjar from '../assets/limanjarMain.png'
 import todoapp from '../assets/todoapp.png'
+import newsapi from '../assets/newsapireactapp.png'
 
 const Work = () => {
   return (
@@ -51,7 +52,7 @@ const Work = () => {
                     </div>
                 </div>
 
-                {/* CARD1 */}
+                {/* CARD FLIGHT FOR TONIGHT */}
                 <div style={{backgroundImage: `url(${Flight}`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                     
                     {/* Hover Effect */}
@@ -78,7 +79,7 @@ const Work = () => {
                     </div>
                 </div>
 
-                {/* CARD 2 */}
+                {/* CARD  CONCIOUS SHOPPER */}
                 <div style={{backgroundImage: `url(${Shopper}`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                     
                     {/* Hover Effect */}
@@ -105,8 +106,30 @@ const Work = () => {
                     </div>
                 </div>
 
+                {/* CARD  NEWS API REACT APP */}
+                <div style={{backgroundImage: `url(${newsapi}`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                    
+                    {/* Hover Effect */}
+                    <div className='opacity-0 group-hover:opacity-100 max-w-[400px] '>
+                        <span className='text-2x1 font-bold text-white tracking-wider'>
+                            Serverless News-Api React App
+                        </span>
+                        <p>
+                        A serverless react app that fetches latest news from newsapi. Includes pagination and sorting features
+                        </p>
+                        <div className='pt-8 text-center'>
+                            <a href="https://github.com/alvaroormeno/news-api-serverless-react-app" target="_blank">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                                    Github Repo
+                                </button>
+                            </a>
 
-                {/* CARD 3 */}
+                        </div>
+                    </div>
+                </div>
+
+
+                {/* CARD MOCK AIRBNB LANDING PAGE */}
                 <div style={{backgroundImage: `url(${airbnb}`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                     
                     {/* Hover Effect */}
@@ -133,7 +156,7 @@ const Work = () => {
                     </div>
                 </div>
 
-                {/* CARD 4 */}
+                {/* CARD UDEMY CLONE LANDING PAGE */}
                 <div style={{backgroundImage: `url(${udemy}`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                     
                     {/* Hover Effect */}
@@ -160,7 +183,7 @@ const Work = () => {
                     </div>
                 </div>
 
-                {/* CARD 5 */}
+                {/* CARD RESPONSIVE WEATHER APP */}
                 <div style={{backgroundImage: `url(${weatherapp}`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                     
                     {/* Hover Effect */}
@@ -187,7 +210,7 @@ const Work = () => {
                     </div>
                 </div>
 
-                {/* CARD 6 */}
+                {/* CARD LIMANJAR DULCERIA WEBSITE */}
                 <div style={{backgroundImage: `url(${limanjar}`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                     
                     {/* Hover Effect */}
