@@ -12,17 +12,22 @@ const Work = () => {
   return (
 
     // PAGE CONTAINER
-    <div name='work' className='w-full md:h-screen text-gray-300 bg-[#0a192f]'>
+    <div name='work' className='w-full md:h-[100%] text-gray-300 bg-[#0a192f] pt-[80px]'>
 
         {/* MAIN CONTAINER */}
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
             <div className='pb-8'>
-                <p className='text-4xl font-bold inline border-b-4 border-[#80ED99]'>Work</p>
-                <p className='py-6'>Check out some of my recent projects!</p>
+                <p className='text-4xl font-bold inline border-b-4 border-[#80ED99]'>Projects</p>
+                <p className='py-4'>Check out some of my recent projects!</p>
             </div>
 
+            <div className='pb-2'>
+                <p className='text-xl font-bold inline border-b-4 border-[#80ED99]'>Fullstack & Apps</p>
+            </div>
+            
+            
             {/* CONTAINER FOR CARDS */}
-            <div className='grid sm:grid-cols-2 md:grid-cols-2 gap-4'>
+            <div className='grid sm:grid-cols-2 md:grid-cols-2 gap-4 mb-8'>
 
 
                 {/* CARD MERN TO DO APP */}
@@ -129,24 +134,60 @@ const Work = () => {
                 </div>
 
 
-                {/* CARD MOCK AIRBNB LANDING PAGE */}
-                <div style={{backgroundImage: `url(${airbnb}`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                {/* CARD RESPONSIVE WEATHER APP */}
+                <div style={{backgroundImage: `url(${weatherapp}`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                     
                     {/* Hover Effect */}
                     <div className='opacity-0 group-hover:opacity-100 max-w-[400px]'>
                         <span className='text-2x1 font-bold text-white tracking-wider'>
-                            Mock Airbnb Landing Page
+                            Responsive Weather APP
                         </span>
                         <p>
-                            A simple mockup of an Airbnb landing page constructed fully with React and TailwindCSS.
+                        A complete mobile responsive weather app that uses 2 different API calls to fetch different weather properties.
                         </p>
                         <div className='pt-8 text-center'>
-                            <a href="https://alvaroormeno.github.io/travel-rental-landing-page/" target="_blank">
+                            <a href="https://alvaroormeno.github.io/responsive-weather-app/" target="_blank">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                                     Live Demo
                                 </button>
                             </a>
-                            <a href="https://github.com/alvaroormeno/travel-rental-landing-page" target="_blank">
+                            <a href="https://github.com/alvaroormeno/responsive-weather-app" target="_blank">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                                    Github Repo
+                                </button>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div className='pb-4'>
+                <p className='text-xl font-bold inline border-b-4 border-[#80ED99]'>Frontend & Design</p>
+            </div>
+            
+            
+            {/* CONTAINER FOR CARDS */}
+            <div className='grid sm:grid-cols-2 md:grid-cols-2 gap-4'>
+
+                {/* CARD LIMANJAR DULCERIA WEBSITE */}
+                <div style={{backgroundImage: `url(${limanjar}`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                    
+                    {/* Hover Effect */}
+                    <div className='opacity-0 group-hover:opacity-100 max-w-[400px]'>
+                        <span className='text-2x1 font-bold text-white tracking-wider'>
+                            Limanjar Dulceria Website
+                        </span>
+                        <p>
+                        A mock website for Limanjar Dulceria, Online Bakery Shop
+                        </p>
+                        <div className='pt-8 text-center'>
+                            <a href="https://alvaroormeno.github.io/limanjar-web/" target="_blank">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                                    Live Demo
+                                </button>
+                            </a>
+                            <a href="https://github.com/alvaroormeno/limanjar-web" target="_blank">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                                     Github Repo
                                 </button>
@@ -183,24 +224,24 @@ const Work = () => {
                     </div>
                 </div>
 
-                {/* CARD RESPONSIVE WEATHER APP */}
-                <div style={{backgroundImage: `url(${weatherapp}`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                {/* CARD MOCK AIRBNB LANDING PAGE */}
+                <div style={{backgroundImage: `url(${airbnb}`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                     
                     {/* Hover Effect */}
                     <div className='opacity-0 group-hover:opacity-100 max-w-[400px]'>
                         <span className='text-2x1 font-bold text-white tracking-wider'>
-                            Responsive Weather APP
+                            Mock Airbnb Landing Page
                         </span>
                         <p>
-                        A complete mobile responsive weather app that uses 2 different API calls to fetch different weather properties.
+                            A simple mockup of an Airbnb landing page constructed fully with React and TailwindCSS.
                         </p>
                         <div className='pt-8 text-center'>
-                            <a href="https://alvaroormeno.github.io/responsive-weather-app/" target="_blank">
+                            <a href="https://alvaroormeno.github.io/travel-rental-landing-page/" target="_blank">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                                     Live Demo
                                 </button>
                             </a>
-                            <a href="https://github.com/alvaroormeno/responsive-weather-app" target="_blank">
+                            <a href="https://github.com/alvaroormeno/travel-rental-landing-page" target="_blank">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                                     Github Repo
                                 </button>
@@ -209,36 +250,6 @@ const Work = () => {
                         </div>
                     </div>
                 </div>
-
-                {/* CARD LIMANJAR DULCERIA WEBSITE */}
-                <div style={{backgroundImage: `url(${limanjar}`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
-                    
-                    {/* Hover Effect */}
-                    <div className='opacity-0 group-hover:opacity-100 max-w-[400px]'>
-                        <span className='text-2x1 font-bold text-white tracking-wider'>
-                            Limanjar Dulceria Website
-                        </span>
-                        <p>
-                        A mock website for Limanjar Dulceria, Online Bakery Shop
-                        </p>
-                        <div className='pt-8 text-center'>
-                            <a href="https://alvaroormeno.github.io/limanjar-web/" target="_blank">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                                    Live Demo
-                                </button>
-                            </a>
-                            <a href="https://github.com/alvaroormeno/limanjar-web" target="_blank">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                                    Github Repo
-                                </button>
-                            </a>
-
-                        </div>
-                    </div>
-                </div>
-
-
-
 
 
             </div>
