@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/alvaro-portfolio-v1/static/css/main.550d787e.css",
-    "main.js": "/alvaro-portfolio-v1/static/js/main.39a93cec.js",
+    "main.css": "/alvaro-portfolio-v1/static/css/main.7a2af04e.css",
+    "main.js": "/alvaro-portfolio-v1/static/js/main.7fbd1e75.js",
     "static/media/airbnblanding.png": "/alvaro-portfolio-v1/static/media/airbnblanding.6d928c51336e4fc0fda5.png",
     "static/media/limanjarMain.png": "/alvaro-portfolio-v1/static/media/limanjarMain.057a5190fc15e373b801.png",
     "static/media/udemy.png": "/alvaro-portfolio-v1/static/media/udemy.8c92d64cc8c2203207a5.png",
@@ -9,19 +9,23 @@
     "static/media/2022aozcv.pdf": "/alvaro-portfolio-v1/static/media/2022aozcv.1dd5ac525879579afa18.pdf",
     "static/media/consciousshopper.jpg": "/alvaro-portfolio-v1/static/media/consciousshopper.4b461bd2d59a103fee9c.jpg",
     "static/media/flightfortonight.jpg": "/alvaro-portfolio-v1/static/media/flightfortonight.e611558a3d477c5c0f47.jpg",
+    "static/media/todoapp.png": "/alvaro-portfolio-v1/static/media/todoapp.94ca972a75d8510ec61e.png",
+    "static/media/mongodb.png": "/alvaro-portfolio-v1/static/media/mongodb.c20e1bc7e958c8db307f.png",
     "static/media/react.png": "/alvaro-portfolio-v1/static/media/react.0cf951a69d8e58f83f9d.png",
     "static/media/alvaro22.jpeg": "/alvaro-portfolio-v1/static/media/alvaro22.2c6c9ab65d64ddd18104.jpeg",
     "static/media/node.png": "/alvaro-portfolio-v1/static/media/node.952a9ea986dcfa5229ad.png",
     "static/media/github.png": "/alvaro-portfolio-v1/static/media/github.3b9e32903aa89111875d.png",
     "static/media/html.png": "/alvaro-portfolio-v1/static/media/html.2ba4fabc69a89a8f71e6.png",
+    "static/media/tailwind.png": "/alvaro-portfolio-v1/static/media/tailwind.e47ac876b8d4d0bba47a.png",
     "static/media/css.png": "/alvaro-portfolio-v1/static/media/css.69a82c2d9e45c933a9cb.png",
+    "static/media/express.png": "/alvaro-portfolio-v1/static/media/express.39a0f4c3d981885c64f8.png",
     "static/media/javascript.png": "/alvaro-portfolio-v1/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/alvaro-portfolio-v1/index.html",
-    "main.550d787e.css.map": "/alvaro-portfolio-v1/static/css/main.550d787e.css.map",
-    "main.39a93cec.js.map": "/alvaro-portfolio-v1/static/js/main.39a93cec.js.map"
+    "main.7a2af04e.css.map": "/alvaro-portfolio-v1/static/css/main.7a2af04e.css.map",
+    "main.7fbd1e75.js.map": "/alvaro-portfolio-v1/static/js/main.7fbd1e75.js.map"
   },
   "entrypoints": [
-    "static/css/main.550d787e.css",
-    "static/js/main.39a93cec.js"
+    "static/css/main.7a2af04e.css",
+    "static/js/main.7fbd1e75.js"
   ]
 }
