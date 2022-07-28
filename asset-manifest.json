@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/alvaro-portfolio-v1/static/css/main.7a2af04e.css",
-    "main.js": "/alvaro-portfolio-v1/static/js/main.8395c65a.js",
+    "main.css": "/alvaro-portfolio-v1/static/css/main.a72330b4.css",
+    "main.js": "/alvaro-portfolio-v1/static/js/main.7c74a4c7.js",
     "static/media/newsapireactapp.png": "/alvaro-portfolio-v1/static/media/newsapireactapp.98b1ba7d88e2f1714edf.png",
     "static/media/airbnblanding.png": "/alvaro-portfolio-v1/static/media/airbnblanding.6d928c51336e4fc0fda5.png",
     "static/media/limanjarMain.png": "/alvaro-portfolio-v1/static/media/limanjarMain.057a5190fc15e373b801.png",
@@ -22,11 +22,11 @@
     "static/media/express.png": "/alvaro-portfolio-v1/static/media/express.39a0f4c3d981885c64f8.png",
     "static/media/javascript.png": "/alvaro-portfolio-v1/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/alvaro-portfolio-v1/index.html",
-    "main.7a2af04e.css.map": "/alvaro-portfolio-v1/static/css/main.7a2af04e.css.map",
-    "main.8395c65a.js.map": "/alvaro-portfolio-v1/static/js/main.8395c65a.js.map"
+    "main.a72330b4.css.map": "/alvaro-portfolio-v1/static/css/main.a72330b4.css.map",
+    "main.7c74a4c7.js.map": "/alvaro-portfolio-v1/static/js/main.7c74a4c7.js.map"
   },
   "entrypoints": [
-    "static/css/main.7a2af04e.css",
-    "static/js/main.8395c65a.js"
+    "static/css/main.a72330b4.css",
+    "static/js/main.7c74a4c7.js"
   ]
 }
