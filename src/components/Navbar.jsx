@@ -12,6 +12,11 @@ const Navbar = () => {
         setNav(!nav)
     }
 
+    // STYLES FOR INLINE STYLING
+     const borderAnimation = {
+
+     }
+
 
 
   return (
@@ -24,33 +29,39 @@ const Navbar = () => {
         {/* Note 1 */}
         <div className=''>
             <ul className='hidden md:flex'>
-                <li >
-                <Link to="home" smooth={true}  duration={500}>
+                <li className='relative group'>
+                <Link to="home" className=" " smooth={true}  duration={500}>
                     Home
                 </Link>
+                <span className='absolute -bottom-1 left-0 w-[0] h-[1px] bg-white transition-all  group-hover:w-full '></span>
                 </li>
-                <li >
+                <li className='relative group'>
                     <Link to="about" smooth={true}  duration={500}>
                         About
                     </Link>
+                    <span className='absolute -bottom-1 left-0 w-0 h-[1px] bg-white transition-all  group-hover:w-full'></span>
                 </li>
-                <li >
+                <li className='relative group'>
                     <Link to="skills" smooth={true}  duration={500}>
                         Skills
                     </Link>
+                    <span className='absolute -bottom-1 left-0 w-0 h-[1px] bg-white transition-all  group-hover:w-full'></span>
                 </li>
-                <li >
+                <li className='relative group'>
                     <Link to="work" smooth={true}  duration={500}>
                         Projects
                     </Link>
+                    <span className='absolute -bottom-1 left-0 w-0 h-[1px] bg-white transition-all  group-hover:w-full'></span>
                 </li>
-                <li >
+                <li className='relative group'>
                     <Link to="contact" smooth={true}  duration={500}>
                         Contact
                     </Link>
+                    <span className='absolute -bottom-1 left-0 w-0 h-[1px] bg-white transition-all  group-hover:w-full'></span>
                 </li>
-                <li >
+                <li className='relative group'>
                 <a className="nav-link change" rel="noreferrer" href={resume} target="_blank">Resume</a>
+                <span className='absolute -bottom-1 left-0 w-0 h-[1px] bg-white transition-all  group-hover:w-full'></span>
                 </li>
             </ul>
         </div>
