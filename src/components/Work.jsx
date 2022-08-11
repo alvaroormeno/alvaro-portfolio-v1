@@ -7,6 +7,9 @@ import weatherapp from '../assets/weatherapp.png'
 import limanjar from '../assets/limanjarMain.png'
 import todoapp from '../assets/todoapp.png'
 import newsapi from '../assets/newsapireactapp.png'
+import spacex from '../assets/spacex.png'
+import payapi from '../assets/payapi.png'
+import skilled from '../assets/skilledweb.png'
 
 const Work = () => {
   return (
@@ -20,6 +23,8 @@ const Work = () => {
                 <p className='text-4xl font-bold inline border-b-4 border-[#80ED99]'>Projects</p>
                 <p className='py-4'>Check out some of my recent projects!</p>
             </div>
+
+            {/* //////- FULLSTACK SECTION -////// */}
 
             <div className='pb-2'>
                 <p className='text-xl font-bold inline border-b-4 border-[#80ED99]'>Fullstack & Apps</p>
@@ -162,6 +167,10 @@ const Work = () => {
                 </div>
             </div>
 
+            {/* //////- FRONT END SECTION -////// */}{/* //////- FRONT END SECTION -////// */}{/* //////- FRONT END SECTION -////// */}
+            {/* //////- FRONT END SECTION -////// */}{/* //////- FRONT END SECTION -////// */}{/* //////- FRONT END SECTION -////// */}
+            {/* //////- FRONT END SECTION -////// */}{/* //////- FRONT END SECTION -////// */}{/* //////- FRONT END SECTION -////// */}
+
             <div className='pb-4'>
                 <p className='text-xl font-bold inline border-b-4 border-[#80ED99]'>Frontend & Design</p>
             </div>
@@ -169,6 +178,33 @@ const Work = () => {
             
             {/* CONTAINER FOR CARDS */}
             <div className='grid sm:grid-cols-2 md:grid-cols-2 gap-4'>
+
+                {/* CARD SPACE X CLONE */}
+                <div style={{backgroundImage: `url(${spacex}`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                    
+                    {/* Hover Effect */}
+                    <div className='opacity-0 group-hover:opacity-100 max-w-[400px]'>
+                        <span className='text-2x1 font-bold text-white tracking-wider'>
+                            Space X Website Clone
+                        </span>
+                        <p>
+                        A clone of www.spacex.com
+                        </p>
+                        <div className='pt-8 text-center'>
+                            <a href="https://alvaroormeno.github.io/space-x-website-clone/" target="_blank">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                                    Live Demo
+                                </button>
+                            </a>
+                            <a href="https://github.com/alvaroormeno/space-x-website-clone" target="_blank">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                                    Github Repo
+                                </button>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
 
                 {/* CARD LIMANJAR DULCERIA WEBSITE */}
                 <div style={{backgroundImage: `url(${limanjar}`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
@@ -188,6 +224,60 @@ const Work = () => {
                                 </button>
                             </a>
                             <a href="https://github.com/alvaroormeno/limanjar-web" target="_blank">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                                    Github Repo
+                                </button>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+
+                {/* CARD FRONTEND MENTOR PAY API MULTI PAGE WEBSITE */}
+                <div style={{backgroundImage: `url(${payapi}`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                    
+                    {/* Hover Effect */}
+                    <div className='opacity-0 group-hover:opacity-100 max-w-[400px]'>
+                        <span className='text-2x1 font-bold text-white tracking-wider'>
+                            Multi-page Website Frontend Challenge
+                        </span>
+                        <p>
+                        A Frontend Mentor challenge. Figma to React mobile responsive website. Built with React & TailwindCSS
+                        </p>
+                        <div className='pt-8 text-center'>
+                            <a href="https://alvaro-frontend-mentor-projects.github.io/payapi-multi-page-website/?#/" target="_blank">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                                    Live Demo
+                                </button>
+                            </a>
+                            <a href="https://github.com/alvaro-frontend-mentor-projects/payapi-multi-page-website" target="_blank">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                                    Github Repo
+                                </button>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+
+                {/* CARD FRONTEND MENTOR PAY API MULTI PAGE WEBSITE */}
+                <div style={{backgroundImage: `url(${skilled}`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                    
+                    {/* Hover Effect */}
+                    <div className='opacity-0 group-hover:opacity-100 max-w-[400px]'>
+                        <span className='text-2x1 font-bold text-white tracking-wider'>
+                            Figma to React Frontend Challenge
+                        </span>
+                        <p>
+                        A Frontend Mentor challenge. Built with React & TailwindCSS
+                        </p>
+                        <div className='pt-8 text-center'>
+                            <a href="https://alvaro-frontend-mentor-projects.github.io/skilled-e-learning-landing-page/" target="_blank">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                                    Live Demo
+                                </button>
+                            </a>
+                            <a href="https://github.com/alvaro-frontend-mentor-projects/skilled-e-learning-landing-page" target="_blank">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                                     Github Repo
                                 </button>
