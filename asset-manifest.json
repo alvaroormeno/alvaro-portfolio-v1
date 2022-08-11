@@ -1,12 +1,15 @@
 {
   "files": {
-    "main.css": "/alvaro-portfolio-v1/static/css/main.a72330b4.css",
-    "main.js": "/alvaro-portfolio-v1/static/js/main.7c74a4c7.js",
+    "main.css": "/alvaro-portfolio-v1/static/css/main.9f944ff3.css",
+    "main.js": "/alvaro-portfolio-v1/static/js/main.3e020211.js",
     "static/media/newsapireactapp.png": "/alvaro-portfolio-v1/static/media/newsapireactapp.98b1ba7d88e2f1714edf.png",
     "static/media/airbnblanding.png": "/alvaro-portfolio-v1/static/media/airbnblanding.6d928c51336e4fc0fda5.png",
+    "static/media/spacex.png": "/alvaro-portfolio-v1/static/media/spacex.5e35a590fa6d448138e7.png",
     "static/media/limanjarMain.png": "/alvaro-portfolio-v1/static/media/limanjarMain.057a5190fc15e373b801.png",
     "static/media/udemy.png": "/alvaro-portfolio-v1/static/media/udemy.8c92d64cc8c2203207a5.png",
     "static/media/weatherapp.png": "/alvaro-portfolio-v1/static/media/weatherapp.84d41742cbaf41d0aa30.png",
+    "static/media/skilledweb.png": "/alvaro-portfolio-v1/static/media/skilledweb.8f29d6f97b2326cf6455.png",
+    "static/media/payapi.png": "/alvaro-portfolio-v1/static/media/payapi.afba6902eec88514f559.png",
     "static/media/2022aozcv.pdf": "/alvaro-portfolio-v1/static/media/2022aozcv.1dd5ac525879579afa18.pdf",
     "static/media/consciousshopper.jpg": "/alvaro-portfolio-v1/static/media/consciousshopper.4b461bd2d59a103fee9c.jpg",
     "static/media/flightfortonight.jpg": "/alvaro-portfolio-v1/static/media/flightfortonight.e611558a3d477c5c0f47.jpg",
@@ -22,11 +25,11 @@
     "static/media/express.png": "/alvaro-portfolio-v1/static/media/express.39a0f4c3d981885c64f8.png",
     "static/media/javascript.png": "/alvaro-portfolio-v1/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/alvaro-portfolio-v1/index.html",
-    "main.a72330b4.css.map": "/alvaro-portfolio-v1/static/css/main.a72330b4.css.map",
-    "main.7c74a4c7.js.map": "/alvaro-portfolio-v1/static/js/main.7c74a4c7.js.map"
+    "main.9f944ff3.css.map": "/alvaro-portfolio-v1/static/css/main.9f944ff3.css.map",
+    "main.3e020211.js.map": "/alvaro-portfolio-v1/static/js/main.3e020211.js.map"
   },
   "entrypoints": [
-    "static/css/main.a72330b4.css",
-    "static/js/main.7c74a4c7.js"
+    "static/css/main.9f944ff3.css",
+    "static/js/main.3e020211.js"
   ]
 }
